@@ -41,6 +41,10 @@ services:
         env_file:
             - .env.nginx.local
 
+#    elasticmq:
+#        build: docker/elasticmq
+#        hostname: elasticmq
+
     adminer:
         image: adminer
         restart: always
